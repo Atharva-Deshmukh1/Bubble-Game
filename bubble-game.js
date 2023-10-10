@@ -1,4 +1,4 @@
-var timer = 10;
+var timer = 60;
 var score = 0;
 var num = 0;
 
@@ -38,7 +38,7 @@ function increasescore(){
     
 };
 document.querySelector(".reset").onclick =() => {
-    timer = 9;
+    timer = 60;
     score = 0;
     makebubble();
     newhit();
