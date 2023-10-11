@@ -17,6 +17,12 @@ html, body{
     align-items: center;
     justify-content: center;
 }
+/* .main2{
+    display: flex;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+} */
 #container{border-radius: 10px;
     overflow: hidden;
     /* background-color: rgb(117 191 131); */
@@ -89,8 +95,8 @@ button{
 button:hover{
     cursor:pointer;
     background-color: #fcfffc;
-    height:37px;
-    width: 110px;
+    /* height:37px;
+    width: 110px; */
     color: black;
     
 }

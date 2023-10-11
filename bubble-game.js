@@ -38,13 +38,19 @@ function increasescore(){
     
 };
 document.querySelector(".reset").onclick =() => {
-    timer = 60;
     score = 0;
+    if (timer == 0){
+        runtimer();
+    }
+    timer=60;
+    document.querySelector("#scoreval").textContent = score;
     makebubble();
     newhit();
     eventbubbling();
-    runtimer();
+    
 };
+
+
 
             
 
