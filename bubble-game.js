@@ -22,6 +22,7 @@ function runtimer(){
         clearInterval(a);
         
         document.querySelector(".cbottom").innerHTML = `<h2>Game Over. Your Score is: ${score}</h2>`;
+        
     }  
        
     },1000);
