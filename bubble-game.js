@@ -84,7 +84,7 @@ function darktheam(){
         
     else {
         dark.style.backgroundColor="rgb(129 181 192)";
-                main.style.backgroundColor="white";
+                main.style.backgroundColor="rgb(191 236 193)";
                 dar.style.backgroundColor="#292c46";
                 btn.innerHTML="Dark Theam";
                 c = 0;
